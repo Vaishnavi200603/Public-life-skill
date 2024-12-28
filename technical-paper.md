@@ -10,15 +10,7 @@ Firewalls are typically divided into two types - Software firewall and Hardware 
 
 So we can say that firewall is a hardware and software tool that limits the access of networks in our system.
 
-Internal Network(Private Network) --> Trusted
-            |
-            |
-            |
-        FIREWALL --> gateway for security
-            |
-            |
-            |
-External Network(Public Network) --> Untrusted
+Internal Network(Private Network - Trusted) --> FIREWALL:gateway for security --> External Network(Public Network - Untrusted)
 
 ### Software Firewall(also called Host based Firewall)
 
@@ -46,7 +38,6 @@ Data packets contain two things-
 2. Data Payloads - some part of data in encryted form.
 
 ## How do firewall help us to not become a victim of online hacking?
-(How do Firewall works?)
 
 ### Filtering Networks: 
 Firewall works with security cretaria or set of rules that are generally set by IT and network manager, and according to those rules it will filter out the unwanted requests.
@@ -89,19 +80,7 @@ It not only prevent us from unwanted hacks but also keeps the history of all the
 1. It is a combination of packet filtering and application firewall.
 2. Provide better secuiry overall.
 
-Internal Network(Private Network) --> Trusted
-            |
-            |
-            |
-    Network/Packet Filtering Firewall
-            |
-            |
-            |
-    Application/Proxy Firewall
-            |
-            |
-            |
-External Network(Public Network) --> Untrusted
+Internal Network(Private Network - Trusted) --> Network/Packet Filtering Firewall --> Application/Proxy Firewall --> External Network(Public Network - Untrusted)
 
 ## Conclusion
 
